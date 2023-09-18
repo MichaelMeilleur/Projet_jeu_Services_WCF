@@ -1,0 +1,29 @@
+﻿<Window x:Class="TP3.CreationClasse"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP3"
+        mc:Ignorable="d"
+        Title="CreationClasse" Height="432" Width="390">
+    <Grid Margin="0,0,0,7">
+        <Label Content="Création d'une classe" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top" Height="41" Width="254" FontSize="24"/>
+        <ComboBox x:Name="cbMonde" HorizontalAlignment="Center" Margin="0,72,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ID Du monde :" HorizontalAlignment="Left" Margin="18,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nom de la classe :" HorizontalAlignment="Left" Margin="18,110,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtNom" HorizontalAlignment="Left" Margin="135,114,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Description :" HorizontalAlignment="Left" Margin="18,151,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDescription" HorizontalAlignment="Left" Margin="135,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Force de base :" HorizontalAlignment="Left" Margin="18,191,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtForce" HorizontalAlignment="Left" Margin="135,195,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Dextérité de base :" HorizontalAlignment="Left" Margin="18,222,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtDexterity" HorizontalAlignment="Left" Margin="135,226,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Vitalité de base :" HorizontalAlignment="Left" Margin="18,253,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtVitalite" HorizontalAlignment="Left" Margin="135,257,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Intégrité de base :" HorizontalAlignment="Left" Margin="18,284,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtIntegrite" HorizontalAlignment="Left" Margin="135,288,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCréer" Content="Créer" HorizontalAlignment="Left" Margin="18,346,0,0" VerticalAlignment="Top" Height="42" Width="124" Click="btnCréer_Click"/>
+        <Button x:Name="btnRetour" Content="Retour" HorizontalAlignment="Left" Margin="167,346,0,0" VerticalAlignment="Top" Height="42" Width="122" Click="btnRetour_Click"/>
+
+    </Grid>
+</Window>

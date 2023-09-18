@@ -1,0 +1,22 @@
+﻿<Window x:Class="TP3.PageAcceuil"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP3"
+        mc:Ignorable="d"
+        Title="PageAcceuil" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/background.png"/>
+        </Grid.Background>
+        <Button x:Name="btnCreationHero" Content="Créer un héro" HorizontalAlignment="Left" Margin="99,69,0,0" VerticalAlignment="Top" Height="70" Width="172" Click="btnCreationHero_Click"/>
+        <Label Content="Page d'acceuil HUGO WORLD" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Height="54" Width="328" FontSize="24" Background="{x:Null}" Foreground="#FFECECEC"/>
+        <Button x:Name="btnCreationClasse" Content="Créer une classe" HorizontalAlignment="Left" Margin="521,69,0,0" VerticalAlignment="Top" Height="70" Width="172" Click="btnCreationClasse_Click"/>
+        <Button x:Name="btnJouer" Content="Jouer..." HorizontalAlignment="Left" Margin="268,342,0,0" VerticalAlignment="Top" Height="39" Width="132" Click="btnJouer_Click" FontSize="18"/>
+        <Button x:Name="btnModifierClasses" Content="Modifier/Supprimer une classe" HorizontalAlignment="Left" Margin="521,197,0,0" VerticalAlignment="Top" Height="70" Width="172" Click="btnModifierClasses_Click"/>
+        <Button x:Name="btnSupprimerHero" Content="Supprimer un héro" HorizontalAlignment="Left" Margin="99,197,0,0" VerticalAlignment="Top" Height="70" Width="172" Click="btnSupprimerHero_Click"/>
+        <Button x:Name="btnQuitter" Content="Quitter" HorizontalAlignment="Left" Margin="405,342,0,0" VerticalAlignment="Top" Height="39" Width="132" Click="btnQuitter_Click"/>
+
+    </Grid>
+</Window>

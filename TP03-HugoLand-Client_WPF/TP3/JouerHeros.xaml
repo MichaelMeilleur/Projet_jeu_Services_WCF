@@ -1,0 +1,16 @@
+﻿<Window x:Class="TP3.JouerHeros"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TP3"
+        mc:Ignorable="d"
+        Title="JouerHeros" Height="481" Width="831">
+    <Grid>
+        <DataGrid x:Name="dgHeros" CanUserAddRows="false" Margin="107,101,0,0" Height="225" VerticalAlignment="Top" HorizontalAlignment="Left" Width="604"/>
+        <Label Content="Choisir votre Héro" HorizontalAlignment="Center" Margin="0,21,0,0" VerticalAlignment="Top" Height="65" Width="306" FontSize="36"/>
+        <Button x:Name="btnJouer" Content="Jouer!" Margin="316,354,0,0" FontSize="36" Height="68" VerticalAlignment="Top" HorizontalAlignment="Left" Width="199" Click="btnJouer_Click"/>
+        <Button x:Name="btnRetour" Content="Retour" HorizontalAlignment="Left" Margin="612,366,0,0" VerticalAlignment="Top" Height="44" Width="99" Click="btnRetour_Click"/>
+
+    </Grid>
+</Window>
